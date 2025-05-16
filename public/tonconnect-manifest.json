@@ -1,0 +1,8 @@
+{
+    "manifest_version": "0.1.0",
+    "name": "TON E-commerce Mini App",
+    "description": "A Telegram mini app with TON payments",
+    "url": "https://your-frontend-url.com",
+    "icon_url": "https://your-frontend-url.com/icon.png"
+  }
+  
