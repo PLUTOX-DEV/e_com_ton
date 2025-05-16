@@ -2,7 +2,7 @@
     "manifest_version": "0.1.0",
     "name": "TON E-commerce Mini App",
     "description": " E-commerce mini app with TON payments",
-    "url": "https://e-com-ton.vercel.app/",
+    "url": "https://e-com-ton.vercel.app/tonconnect-manifest.json",
     "icon_url": "https://cdn-images.dzcdn.net/images/cover/2b0e8ca3ab46936b86ff56bd77e45c1e/500x500.jpg"
   }
   
