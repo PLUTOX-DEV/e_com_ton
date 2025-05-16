@@ -2,8 +2,8 @@
   "url": "https://e-com-ton.vercel.app/tonconnect-manifest.json",
   "name": "TON E-commerce Mini App",
   "icon_url": "https://e-com-ton.vercel.app/vite.svg",
-  "termsOfUseUrl": "https://e-com-ton.vercel.app/terms",
-  "privacyPolicyUrl": "https://e-com-ton.vercel.app/privacy",
+  "termsOfUseUrl": "https://your-domain.vercel.app/terms",
+  "privacyPolicyUrl": "https://your-domain.vercel.app/privacy",
   "manifestVersion": "1.0.0",
   "network": "mainnet"
 }
