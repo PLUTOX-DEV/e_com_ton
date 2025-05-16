@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './App.jsx';
+import './index.css';
+
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <TonConnectUIProvider manifestUrl={import.meta.env.VITE_TONCONNECT_MANIFEST_URL}>
-    <React.StrictMode>
+  <React.StrictMode>
+    <TonConnectUIProvider
+      manifestUrl="https://e-com-ton.vercel.app/tonconnect-manifest.json"
+      actionsConfiguration={{ twaReturnUrl: 'https://t.me/Tonnode_bot/app' }}
+    >
       <App />
-    </React.StrictMode>
-  </TonConnectUIProvider>
+    </TonConnectUIProvider>
+  </React.StrictMode>
 );
