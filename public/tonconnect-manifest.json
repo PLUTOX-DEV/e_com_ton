@@ -1,9 +1,8 @@
 {
-  "url": "https://e-com-ton.vercel.app/tonconnect-manifest.json",
+  "manifestVersion": "1.0",
   "name": "TON E-commerce Mini App",
-  "icon_url": "https://e-com-ton.vercel.app/vite.svg",
-  "termsOfUseUrl": "https://your-domain.vercel.app/terms",
-  "privacyPolicyUrl": "https://your-domain.vercel.app/privacy",
-  "manifestVersion": "1.0.0",
-  "network": "mainnet"
+  "url": "https://e-com-ton.vercel.app",
+  "iconUrl": "https://cdn-images.dzcdn.net/images/cover/2b0e8ca3ab46936b86ff56bd77e45c1e/500x500.jpg",
+  "termsOfUseUrl": "https://e-com-ton.vercel.app/terms.html",
+  "privacyPolicyUrl": "https://e-com-ton.vercel.app/privacy.html"
 }
