@@ -4,6 +4,7 @@ import App from './App.jsx';
 import './index.css';
 
 import { TonConnectUIProvider } from '@tonconnect/ui-react';
+import { CartProvider } from './context/CartContext'; // ✅ Import your CartProvider
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -11,7 +12,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       manifestUrl="https://e-com-ton.vercel.app/tonconnect-manifest.json"
       actionsConfiguration={{ twaReturnUrl: 'https://t.me/Tonnode_bot/app' }}
     >
-      <App />
+      <CartProvider> {/* ✅ Wrap App in CartProvider */}
+        <App />
+      </CartProvider>
     </TonConnectUIProvider>
   </React.StrictMode>
 );
